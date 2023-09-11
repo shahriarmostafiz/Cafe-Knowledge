@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import Blogs from './components/Blogs'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
-      <h1 className='text-center text-4xl font-bold'>Math is fun</h1>
-
+      <Header></Header>
+      <Blogs></Blogs>
     </>
   )
 }
